@@ -7,7 +7,7 @@ This GitLab CI runner image allows to bump node project version. This repository
 1. Create `.gitlab-ci.yml`:
 
 ```yaml
-image: rimiti/gitlab-bump
+image: rimiti:gitlab-bump
 
 stages:
   - tag
