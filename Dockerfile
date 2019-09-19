@@ -1,5 +1,5 @@
-FROM node:lts
+FROM node:lts-alpine
 
 RUN apk add --no-cache bash git openssh-client
 
-ADD bump /usr/local/bin/
+ADD bump.sh /usr/local/bin/
