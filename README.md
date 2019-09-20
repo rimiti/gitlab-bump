@@ -35,13 +35,13 @@ By default, `bump` will bump and push to branch `master` of a remote repository.
 You can override this with:
 
 ```sh
-git-push user@git.host:repo branch
+bump user@git.host:repo branch
 ```
 
 ### Pushing to Git running on a non-standard port
 
 ```console
-git-push ssh://dokku@dokku.me:8022/myapp
+bump ssh://dokku@dokku.me:8022/myapp
 ```
 
 ### Not doing force push
